@@ -170,7 +170,9 @@ Input:
 ```
 
 Output:
+```
 yes
+```
 
 
 Input:
