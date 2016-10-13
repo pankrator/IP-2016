@@ -47,7 +47,7 @@ Can you realize what these operations do?
 
 ***char***
 
-use ```sizeof(type)``` to check size in bytes for every data type.
+use ```sizeof(type)``` to check size in bytes for each data type.
 
 ## Read input from console
 
