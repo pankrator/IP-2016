@@ -50,7 +50,7 @@ use ```sizeof(type)``` to check size in bytes for every data type.
 ## Read input from console
 
 ```
-cin>>variable_name
+cin>>variable_name;
 ```
 
 ## Exercises
