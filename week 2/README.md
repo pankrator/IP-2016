@@ -1,5 +1,4 @@
-# IP-2016
-Introduction to programming materials
+# IP-2016 Week 2 - Data types, bitwise operations, conditional operators
 
 ## Bitwise operations on numbers
 
