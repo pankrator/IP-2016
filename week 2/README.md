@@ -82,7 +82,7 @@ int main ()
 ## Read input from console
 
 ```
-cin>>variable_name;
+std::cin>>variable_name;
 ```
 ## Scope of variables
 A scope is a region of the program and broadly speaking there are three places, where variables can be declared:
