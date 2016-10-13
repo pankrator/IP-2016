@@ -49,6 +49,24 @@ Can you realize what these operations do?
 
 use ```sizeof(type)``` to check size in bytes for each data type.
 
+## Delaration vs Initialization
+
+```
+#include <iostream>
+ 
+int main ()
+{
+  // Local variable declaration:
+  int a, b;
+  int c;
+ 
+  // actual initialization
+  a = 10;
+  b = 20;
+  c = a + b;
+  ...
+```
+
 ## Read input from console
 
 ```
@@ -105,7 +123,8 @@ Output:
 ### Task 4
 
 Write a program which swaps two numbers' values.
-Implement the program with no additional variables.
+
+**Additional**: *Implement the program with no additional variables.
 
 Input
 ```
