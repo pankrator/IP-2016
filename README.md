@@ -13,7 +13,7 @@ int main() {
     int a = 0b0011;
     int b = 0b1111;
     int c = a & b;
-	std::cout<<c;
+    std::cout<<c;
 }
 ```
 
@@ -24,7 +24,18 @@ int main() {
     int a = 0b0011;
     int b = 0b1111;
     int c = a | b;
-	std::cout<<c;
+    std::cout<<c;
+}
+```
+
+```
+#include <iostream>
+
+int main() {
+    int a = 0b0011;
+    int b = 0b1111;
+    int c = a ^ b;
+    std::cout<<c;
 }
 ```
 
@@ -49,7 +60,7 @@ Can you realize what these operations do?
 
 use ```sizeof(type)``` to check size in bytes for each data type.
 
-## Delaration vs Initialization
+## Declaration vs Initialization
 
 ```
 #include <iostream>
@@ -72,6 +83,14 @@ int main ()
 ```
 cin>>variable_name;
 ```
+## Scope of variables
+A scope is a region of the program and broadly speaking there are three places, where variables can be declared:
+
+* Inside a function or a block which is called local variables,
+
+* In the definition of function parameters which is called formal parameters.
+
+* Outside of all functions which is called global variables.
 
 ## Exercises
 
