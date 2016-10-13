@@ -41,6 +41,8 @@ int main() {
 
 Can you realize what each program does?
 
+***Note***: Try with different values for `a` and `b`
+
 
 ## Data types
 
