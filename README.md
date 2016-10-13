@@ -1,7 +1,7 @@
 # IP-2016
 Introduction to programming materials
 
-## Logical operations on numbers
+## Bitwise operations on numbers
 
 Try the following programs in C++.
 
