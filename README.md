@@ -1,6 +1,34 @@
 # IP-2016
 Introduction to programming materials
 
+## Logical operations on numbers
+
+Try the following programs in C++.
+
+
+```
+#include <iostream>
+
+int main() {
+    int a = 0b0011;
+    int b = 0b1111;
+    int c = a & b;
+	std::cout<<c;
+}
+```
+
+```
+#include <iostream>
+
+int main() {
+    int a = 0b0011;
+    int b = 0b1111;
+    int c = a | b;
+	std::cout<<c;
+}
+```
+
+
 ## Data types
 
 ***short***
@@ -18,6 +46,12 @@ Introduction to programming materials
 ***char***
 
 use ```sizeof(type)``` to check size in bytes for every data type.
+
+## Read input from console
+
+```
+cin>>variable_name
+```
 
 ## Exercises
 
@@ -85,6 +119,21 @@ b=10
 
 ### Task 5
 
+Write a program which prints the bigger of two numbers.
+
+Input:
+```
+5
+7
+```
+
+Output:
+```
+7
+```
+
+### Task 6
+
 Write a program which outputs whether a number is even.
 
 Input:
@@ -100,6 +149,33 @@ yes
 Input:
 ```
 5
+```
+
+Output:
+```
+no
+```
+
+### Task 7
+
+Print out whether three sides of a triangle really compose a triangle.
+
+Input:
+```
+3
+4
+5
+```
+
+Output:
+yes
+
+
+Input:
+```
+5
+3
+8
 ```
 
 Output:
