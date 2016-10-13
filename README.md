@@ -28,6 +28,8 @@ int main() {
 }
 ```
 
+Can you realize what these operations do?
+
 
 ## Data types
 
