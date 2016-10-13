@@ -39,7 +39,7 @@ int main() {
 }
 ```
 
-Can you realize what these operations do?
+Can you realize what each program does?
 
 
 ## Data types
