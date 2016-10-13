@@ -226,3 +226,28 @@ Output:
 ```
 no
 ```
+
+### Task 8*
+
+Write a program which takes a 4-digit number as input and outputs whether it is a palindrome.
+A palindrome is a number that remains the same when its digits are reversed.
+
+Input:
+```
+2332
+```
+
+Output:
+```
+yes
+```
+
+Input:
+```
+4212
+```
+
+Output:
+```
+no
+```
