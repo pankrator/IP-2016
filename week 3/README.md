@@ -43,7 +43,9 @@ if (boolean_expression)
 
 ## Enum types
 
-```enum enum-name { list of names } var-list;```
+```
+enum enum-name { list of names } var-list;
+```
 
 Example:
 
@@ -53,15 +55,36 @@ But you can give a name a specific value by adding an initializer.
 For example, in the following enumeration, green will have the value 5.
 
 
-```enum color { red, green=5, blue };```
+```
+enum color { red, green=5, blue };
+```
 
 Here, **blue** will have a value of 6 because each name will be one greater than the one that precedes it.
 
-## Multi
+## Switch statement
+
+A switch statement allows a variable to be tested for equality against a list of values.
+
+```C++
+switch(expression){
+    case constant-expression  :
+       statement(s);
+       break; //optional
+    case constant-expression  :
+       statement(s);
+       break; //optional
+  
+    // you can have any number of case statements.
+    default : //Optional
+       statement(s);
+}
+```
 
 ## The #define Preprocessor:
 
-```#define identifier value```
+```
+#define identifier value
+```
 
 ### Task 1
 
