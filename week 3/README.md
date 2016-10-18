@@ -267,7 +267,7 @@ number=11
 
 Output:
 ```
-no
+11 does not belong to [5, 10]
 ```
 
 Input:
@@ -279,7 +279,7 @@ number=7
 
 Output:
 ```
-yes
+7 does belong to [5, 10]
 ```
 
 ### Task 8
