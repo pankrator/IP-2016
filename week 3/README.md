@@ -6,6 +6,41 @@ Condition ? X : Y
 
 If Condition is true ? then it returns value X : otherwise value Y
 
+## If statements
+
+```C++
+if (boolean_expression)
+{
+  ...
+  //What to do
+  ...
+}
+```
+
+```C++
+if (boolean_expression)
+{
+  ...
+  //What to do if boolean_expression is *true*
+  ...
+} else {
+  //What to do if boolean_expression is *false*
+}
+```
+
+```C++
+if (boolean_expression)
+{
+  ...
+  //What to do if boolean_expression is *true*
+  ...
+} else if (other_boolean_expression) {
+  //What to do if other_boolean_expression is *false*
+} else {
+  //What to do in every other case
+}
+```
+
 ## Enum types
 
 ```enum enum-name { list of names } var-list;```
@@ -21,6 +56,8 @@ For example, in the following enumeration, green will have the value 5.
 ```enum color { red, green=5, blue };```
 
 Here, **blue** will have a value of 6 because each name will be one greater than the one that precedes it.
+
+## Multi
 
 ## The #define Preprocessor:
 
