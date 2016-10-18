@@ -80,11 +80,7 @@ switch(expression){
 }
 ```
 
-## The #define Preprocessor:
-
-```
-#define identifier value
-```
+## Exercise
 
 ### Task 1
 
@@ -179,3 +175,75 @@ Output:
 no
 ```
 
+### Task 5
+
+Write a program with variable of enum type to hold day of week. Print appropriate text according which day of week it is.
+
+Input:
+```
+1
+```
+
+Output:
+```
+Monday
+```
+
+So on...
+
+
+### Task 6
+
+Write a program which solves linear and quadratic equations.
+
+* ax + b = 0
+* ax^2 + bx + c = 0
+
+Input:
+```
+3 5 0
+```
+
+Output:
+```
+-1.67
+```
+
+Input:
+```
+1 -5 6
+```
+
+Output:
+```
+3 2
+```
+
+### Task 7
+
+Write a program which decides whether a number is in interval.
+It should print `a=` then `b=` and wait for input from console. 
+
+Input:
+```
+a=5
+b=10
+number=11
+```
+
+Output:
+```
+no
+```
+
+Input:
+```
+a=5
+b=10
+number=7
+```
+
+Output:
+```
+yes
+```
