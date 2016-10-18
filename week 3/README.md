@@ -80,6 +80,40 @@ switch(expression){
 }
 ```
 
+Example:
+
+```C++
+#include <iostream>
+ 
+int main ()
+{
+   // local variable declaration:
+   char grade = 'D';
+
+   switch(grade)
+   {
+   case 'A' :
+      std::cout << "Excellent!" << std::endl; 
+      break;
+   case 'B' :
+   case 'C' :
+      std::cout << "Well done" << std::endl;
+      break;
+   case 'D' :
+      std::cout << "You passed" << std::endl;
+      break;
+   case 'F' :
+      std::cout << "Better try again" << std::endl;
+      break;
+   default :
+      std::cout << "Invalid grade" << std::endl;
+   }
+   std::cout << "Your grade is " << grade << std::endl;
+ 
+   return 0;
+}
+```
+
 ## Exercise
 
 ### Task 1
@@ -246,4 +280,46 @@ number=7
 Output:
 ```
 yes
+```
+
+### Task 8
+
+Write a calculator program. It should support following operations: `+`, `-`, `*`, `/`, and `%`.
+
+Input:
+```
+Sign: -
+5 5
+```
+
+Output:
+```
+0
+```
+
+Input:
+```
+Sign: /
+5 1
+```
+
+Output:
+```
+5
+```
+
+Consider what should happen if someone types 0 as second operand for deletion operation.
+
+### Task 9
+
+Write a program which takes a number as input and prints it in letters representation.
+
+Input:
+```
+37
+```
+
+Output:
+```
+thirty seven
 ```
