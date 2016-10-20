@@ -61,6 +61,47 @@ enum color { red, green=5, blue };
 
 Here, **blue** will have a value of 6 because each name will be one greater than the one that precedes it.
 
+Examples:
+
+```
+#include <iostream>
+
+int main()
+{
+  enum weekDay { Monday = 1, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday };
+
+  weekDay day = Monday; // One way of initialization
+  weekDay friday = (weekDay)5; // Initialize by type casting integer 5 to weekDay type.
+
+  std::cout<<day<<std::endl; // This will print 1, because Monday has an integer value of 1
+
+  return 0;
+}
+```
+
+How to use enum with input from console:
+
+```
+#include <iostream>
+
+int main()
+{
+  enum weekDay { Monday = 1, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday };
+
+  weekDay friday;
+  
+  int dayInput;
+  std::cin>>dayInput;
+  friday = weekDay(dayInput); // Here we set the value of friday to be our input
+
+  std::cout<<friday<<std::endl;
+
+  return 0;
+}
+```
+
+To use the above program enter in the console an integer value.
+
 ## Switch statement
 
 A switch statement allows a variable to be tested for equality against a list of values.
