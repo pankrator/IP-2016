@@ -7,7 +7,7 @@ int main()
     std::cin>>x>>y>>a;
 
     bool isInSquare = (x >= -a && x <= a && y >= -a && y <= a);
-    bool isInTriangle = (y >= a && y <= 2*a) && ((y+2*a >= x) || (y + 2*a >= -x));
+    bool isInTriangle = (y >= a && y <= 2*a) && ((x >= 0 && y <= 2*a - x) || (x <= 0 && y <= 2*a + x));
 
     bool result = (isInSquare || isInTriangle);
 
