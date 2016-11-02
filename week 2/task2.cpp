@@ -1,10 +1,10 @@
 #include <iostream>
-
+using namespace std;
 int main ()
 {
     int number;
-    std::cin>>number;
+    cin >> number;
 
-    std::cout<<number * number;
+    cout << number * number;
     return 0;
 }

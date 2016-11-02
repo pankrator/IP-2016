@@ -1,17 +1,17 @@
 #include <iostream>
-
+using namespace std;
 int main()
 {
     int a, b, c;
 
-    std::cin>>a>>b;
+    cin >> a >> b;
 
     c = a;
     a = b;
     b = c;
 
-    std::cout<<"a="<<a<<std::endl;
-    std::cout<<"b="<<b<<std::endl;
+    cout << "a="<< a << endl;
+    cout << "b="<< b << endl;
 
     return 0;
 }
