@@ -7,91 +7,91 @@ Try the following programs in C++.
 
 ```
 #include <iostream>
-
+using namespace std;
 int main() {
     int a = 0b0011;
     int b = 0b1111;
     int c = a & b;
-    std::cout<<c;
+    cout << c;
 }
 ```
 
 ```
 #include <iostream>
-
+using namespace std;
 int main() {
     int a = 0b0011;
     int b = 0b1111;
     int c = a | b;
-    std::cout<<c;
+    cout << c;
 }
 ```
 
 ```
 #include <iostream>
-
+using namespace std;
 int main() {
     int a = 0b0011;
     int b = 0b1111;
     int c = a ^ b;
-    std::cout<<c;
+    cout << c;
 }
 ```
 
-Can you realize what each program does?
+Can you explain what each program does?
 
 ***Note***: Try with different values for `a` and `b`
 
 
 ## Data types
 
-***short***
+* `short`
+* `int`
+* `long`
+* `long long`
+* `float`
+* `double`
+* `char`
+* `unsigned` + any of the integral types above
+* `bool`
 
-***int***
-
-***long***
-
-***long long***
-
-***float***
-
-***double***
-
-***char***
-
-use ```sizeof(type)``` to check size in bytes for each data type.
+use ```sizeof(type)``` to check the size in bytes for each data type.
 
 ## Declaration vs Initialization
 
 ```
-#include <iostream>
- 
-int main ()
-{
-  // Local variable declaration:
-  int a, b;
-  int c;
- 
-  // actual initialization
-  a = 10;
-  b = 20;
-  c = a + b;
-  ...
+// Local variable declaration:
+int a, b;
+int c;
+
+// Initialization
+a = 10;
+b = 20;
+c = a + b;
+
+// Definition (declaration + initialization)
+int a = 10;
+...
 ```
 
 ## Read input from console
 
+```cpp
+using namespace std;
+...
+int myNumber;
+cin >> myNumber;
 ```
-std::cin>>variable_name;
-```
+
 ## Scope of variables
+
 A scope is a region of the program and broadly speaking there are three places, where variables can be declared:
 
-* Inside a function or a block which is called local variables,
+* Inside a function or a block. These variables are called local variables.
 
-* In the definition of function parameters which is called formal parameters.
+* In the definition of function. These variables are called arguments / formal parameters.
 
-* Outside of all functions which is called global variables.
+* Outside of all functions (outside the main function). These variables are called global variables.
 
 ## Exercises
 
@@ -126,7 +126,7 @@ Output:
 
 ### Task 3
 
-Write a program which takes 3-digit number and outputs every digit on new line.
+Write a program which takes a 3-digit number and outputs every digit on new line.
 
 Input:
 ```
@@ -144,7 +144,7 @@ Output:
 
 Write a program which swaps two numbers' values.
 
-**Additional**: *Implement the program with no additional variables.
+**Optional**: Implement the program with no additional variables.
 
 Input
 ```
