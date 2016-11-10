@@ -16,3 +16,6 @@ The next M lines contain each query.
 **Output:**
 
 The output contains M lines each denoting the index up to which we have to sum the real numbers or `-1` if this is not possible.
+
+### Task 2 - WTF Cypher
+
