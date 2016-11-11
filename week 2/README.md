@@ -1,5 +1,24 @@
 # IP-2016 Week 2 - Data types, bitwise operations, conditional operators
 
+## Review
+
+Bitwise operations are operations that... work directly on bits
+(who would've guessed!). C++ defines 6 bitwise operators
+
+| Name                | Syntax   | Effect                                        | Example                     |
+| ------------------- | -------- | --------------------------------------------- | --------------------------- |
+| Bitwise AND         | `a & b`  | Applies the boolean AND on each pair of bits  | `0b1101 & 0b0101 == 0b0101` |
+| Bitwise OR          | `a | b`  | Applies the boolean OR on each pair of bits   | `0b1101 | 0b0101 == 0b1101` |
+| Bitwise NOT         | `~a`     | Inverts each bit in the operand               | `~0b1101 == 0b0010`         |
+| Bitwise XOR         | `a ^ b ` | Applies the boolean XOR on each pair of bits  | `0b1101 ^ 0b0101 == 0b1010` |
+| Bitwise left shift  | `a << b` | Shifts `b` times the bits of `a` to the left  | `(0b1101 << 2) == 0b0100`   |
+| Bitwise right shift | `a >> b` | Shifts `b` times the bits of `a` to the right | `(0b1101 >> 2) == 0b0011`   |
+
+Some important properties follow. Bitwise operators:
+
+* Are *blazingly* fast
+* Allow you to store boolean values in a single bit instead of a whole byte
+
 ## Bitwise operations on numbers
 
 Try the following programs in C++.
