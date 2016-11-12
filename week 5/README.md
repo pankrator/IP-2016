@@ -152,4 +152,41 @@ Output
 -1
 ```
 
+### Task 2 - Powerset
+
+Given a set of numbers, computer its powerset i.e. the set of all of its subsets.
+Use its [characteristic vector](https://en.wikipedia.org/wiki/Indicator_vector) to represent
+each subset. To generate each vector it's enough to iterate from 0 to 2^n.
+Finally, you need to use bitmasks to check if an element is contained within the subset.
+
+**Input:**
+
+The first line contains the size of the set `N`. `N` will always be between 1 and 64.
+The next line contains exactly `N` numbers - the elements of the set.
+
+**Output:**
+
+You are to output all subsets of the set, each on a new line, separating the numbers in each
+subset with a single space. Print an empty line for the empty set.
+
+**Example:**
+
+Input
+
+```
+3
+1 2 3
+```
+
+Output
+```
+
+1
+2
+3
+1 2
+1 3
+2 3
+1 2 3
+```
 
