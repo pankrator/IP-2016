@@ -43,7 +43,7 @@ for (initialization_expression; boolean_condition; update_expression)
 }
 ```
 
-For Example
+##### Example
 
 ```C++
 for (int i = 0; i < maxIterationCount; ++i)
@@ -57,6 +57,7 @@ while (i < maxIterationCount)
     // Code to be repeated
     ++i;
 }
+```
 
 Notes:
 
@@ -66,6 +67,45 @@ are optional
 * Be careful when writing your loops not to introduce a case in which the `boolean_condition`
 never becomes `false`. If that happens your program will never quit - it will be stuck in an
 *infinite loop*.
+
+#### Loop helper-keywords
+
+There are two keywords used in conjuction with loops that ease working with loops.
+
+##### Break
+
+Break is used to...well, break the loop. It allows you to make an early exit from any
+loop and only breaks the innermost one in case you have nested loops.
+
+```C++
+// This loop detects if n is the second power of some number
+for (int i = 0; i < n; ++i)
+{
+    if (n == i * i)
+    {
+        // No point in iterating further because our work here is done
+        break;
+    }
+}
+```
+
+##### Continue
+
+Continue is used to skip to the next iteration of a loop and just as break works
+only on the innermost loop.
+
+```C++
+// This loop computes the second power of all odd numbers
+for (int i = 0; i < n; ++i)
+{
+    if (i % 2 == 0)
+    {
+        // Skip even numbers; this skip the code below and start the next iteration
+        continue;
+    }
+    std::cout << i * i << " ";
+}
+```
 
 ### Arrays
 
@@ -112,5 +152,4 @@ Output
 -1
 ```
 
-### Task 2 - WTF Cypher
 
