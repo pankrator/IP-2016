@@ -110,6 +110,7 @@ for (int i = 0; i < n; ++i)
 ### Arrays
 
 The **array** is such a **data structure** that stores a fixed number of elements of a certain type.
+Indexing of the arrays starts from `0`(first element) and goes to `n-1`(last element) where `n` is the size of the array.
 
 #### Declaration
 
