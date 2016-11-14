@@ -229,7 +229,29 @@ Output
 1 2 3
 ```
 
-### Task 3 - Print a Christmas tree
+### Task 3 - WTF Cipher
+
+You are given a sentence and a keyword (e.g. `You are great` and keyword `cipher`). Your task is to encrypt this sentence following these rules:
+* the first symbol in the sentence e.g. `Y` will be shifted with the corresponding symbol of the keyword e.g. 'c'.
+* `Y` is 89 in ASCII code and `c` is 99 is ASCII code so the result is 188 in ASCII. [ASCII Table](http://www.ascii-code.com/)
+* every next letter of the sentence will be encoded with the next symbol of the keyword.
+* every time you get to the of the keyword start from the beginning of it again.
+* The keyword is only six letters long, so for the seventh letter of the sentence a `c` symbol is used again to encode.
+
+**Input:**
+
+```
+You are great
+cipher
+```
+
+**Output:**
+
+```
+¼ØåˆÆäÈ‰×ÚÊÓ×
+```
+
+### Task 4 - Print a Christmas tree
 
 Your task is to print a Christmas tree on the console like the following
 
@@ -274,7 +296,7 @@ Output
  ***
 ```
 
-### Task 4 - Palindrome, revisited
+### Task 5 - Palindrome, revisited
 
 Given a positive 64-bit integer, tell whether it's a palindrome.
 
@@ -300,7 +322,7 @@ Yes
 
 
 
-### Task 4 - Palindrome, return of the bits
+### Task 6 - Palindrome, return of the bits
 
 Given a positive 64-bit integer, tell whether it's a palindrome in **base 2**.
 
@@ -326,7 +348,7 @@ Yes
 
 Explanation: 7335 is 1110010100111 in binary. Since 1110010100111 is a palindrome, the program outputs `Yes`.
 
-### Task 5 - Palindrome, the numbers strike back
+### Task 7 - Palindrome, the numbers strike back
 
 This time instead of recognizing whether a number is palindrome,
 your task is to generate all palindromes in base 10 in the range [0, `n`].
@@ -372,7 +394,7 @@ Output
 111
 ```
 
-### Task 6 - Unique number
+### Task 8 - Unique number
 
 You'll be given a list of numbers, all but one of which are repeated at least once.
 This means that exactly one number does not repeat. Your task is to find it.
@@ -397,4 +419,3 @@ Input
 ```
 Output
 6
-```
