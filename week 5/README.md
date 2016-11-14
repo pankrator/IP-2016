@@ -109,6 +109,45 @@ for (int i = 0; i < n; ++i)
 
 ### Arrays
 
+The **array** is such a **data structure** that stores a fixed number of elements of a certain type.
+Indexing of the arrays starts from `0`(first element) and goes to `n-1`(last element) where `n` is the size of the array.
+
+#### Declaration
+
+```
+type arrayName[arraySize];
+```
+
+where **type** is any valid C++ data type, **arraySize** is an integer constant greater than zero.
+
+##### Example
+
+```
+double heights[10];
+```
+
+#### Initializing
+
+```
+double heights[6] = { 3.2, 1, 10, 100, 5.5, 6 };
+```
+
+the number of elements cannot be more than we specified in the square brackets `[6]`.
+
+#### Access and modify elements
+
+Print element of the array:
+```
+cout << heights[0];
+```
+this will print the first element of the array which is `3.2`.
+
+Modify element of the array:
+```
+heights[5] = 10; // this will change the last element of the array from 6 -> 10
+cout << heights[5];
+```
+
 ## Exercises
 
 ### Task 1 - Queries
