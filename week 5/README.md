@@ -109,8 +109,7 @@ for (int i = 0; i < n; ++i)
 
 ### Arrays
 
-The **array** is such a **data structure** that stores a fixed-size sequencial elements of a certain type.
-All elements of the array occupy contiguous memory locations. The lowest address corresponds to the first element and the highest address to the last element.
+The **array** is such a **data structure** that stores a fixed number of elements of a certain type.
 
 #### Declaration
 
@@ -141,8 +140,6 @@ Print element of the array:
 cout << heights[0];
 ```
 this will print the first element of the array which is `3.2`.
-
-
 
 Modify element of the array:
 ```
