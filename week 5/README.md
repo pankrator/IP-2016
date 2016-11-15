@@ -229,14 +229,16 @@ Output
 1 2 3
 ```
 
-### Task 3 - WTF Cipher
+### Task 3 - [Vigenere's cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
 
 You are given a sentence and a keyword (e.g. `You are great` and keyword `cipher`). Your task is to encrypt this sentence following these rules:
 * the first symbol in the sentence e.g. `Y` will be shifted with the corresponding symbol of the keyword e.g. 'c'.
-* `Y` is 89 in ASCII code and `c` is 99 is ASCII code so the result is 188 in ASCII. [ASCII Table](http://www.ascii-code.com/)
+    * `Y` is 89 in ASCII code and `c` is 99 in ASCII code so the result is 188 in ASCII. [ASCII Table](http://www.ascii-code.com/)
 * every next letter of the sentence will be encoded with the next symbol of the keyword.
 * every time you get to the of the keyword start from the beginning of it again.
 * The keyword is only six letters long, so for the seventh letter of the sentence a `c` symbol is used again to encode.
+
+The best way to test whether your encoding algorithm is working is to add a decoding algorithm that reverses the operation. Your program should first ask whether to encode or decode the given strings
 
 **Input:**
 
@@ -248,7 +250,7 @@ cipher
 **Output:**
 
 ```
-¼ØåˆÆäÈ‰×ÚÊÓ×
+╝╪хИ╞ф╚Й╫┌╩╙╫■h
 ```
 
 ### Task 4 - Print a Christmas tree
