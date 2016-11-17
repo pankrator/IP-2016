@@ -206,7 +206,7 @@ The next line contains exactly `N` numbers - the elements of the set.
 **Output:**
 
 You are to output all subsets of the set, each on a new line, separating the numbers in each
-subset with a single space. Print an empty line for the empty set.
+subset with a single space. Print an empty line for the empty set. It doesn't matter which subset is printed on each line.
 
 **Example:**
 
