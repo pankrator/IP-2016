@@ -1,7 +1,6 @@
 # IP-2016 Functions
 
-Every C++ program has at least one function, which is `main()`. You can divide up your code into separate functions. How you divide your code in different functions
-is up to you, but normally it should be so that each function performs a specific task.
+Every C++ program has at least one function, which is the `main()`. You can divide up your code into separate functions. How you divide your code in different functions is up to you, but normally it should be so that each function performs a specific task.
 
 ### Declaration
 
