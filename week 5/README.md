@@ -421,3 +421,81 @@ Input
 ```
 Output
 6
+```
+
+
+### Task 9 -  Letters
+
+You have some letters and we don't know how many times every letter is. Your task is to find number of every letter.
+
+**Input**
+
+On the first line of the standard input - the array of letters.
+
+**Output**
+
+Every letter and number of it in the array.
+
+**Example**
+
+Input
+```
+    abcssvsa
+```
+
+Output
+```
+    a 2
+    b 1
+    c 1
+    s 3
+    v 1
+``` 
+
+### Task 10 -  The longest sequence
+
+You have some numbers and you have to find the longest no decrease sequence.
+
+**Input**
+
+On the first line of the standard input sequence of numbers.
+
+**Output**
+
+Numbers in the longest sequence.
+
+**Example**
+
+Input
+```
+   6 3 1 6 
+```
+
+Output
+```
+    1 6
+```  
+
+### Task 11 -  Sort numbers
+
+You have some numbers and you have to sort them.
+
+**Input**
+
+On the first line of the standard input sequence of numbers.
+
+**Output**
+
+Sorted numbers.
+
+**Example**
+
+Input
+```
+   6 3 1 6 2
+```
+
+Output
+```
+    1 2 3 6 6
+```    
