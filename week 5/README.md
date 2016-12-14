@@ -419,6 +419,7 @@ Input
 ```
 Output
 6
+```
 
 ### Task 9 - Bring on the math
 
