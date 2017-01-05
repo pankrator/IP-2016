@@ -1,4 +1,4 @@
-# IP-2016 Week 2 - Data types, bitwise operations, conditional operators
+# IP-2016 Week 2 - Data types, bitwise operations
 
 ## Review
 
@@ -17,12 +17,11 @@ Bitwise operations are operations that... work directly on bits
 Some important properties follow. Bitwise operators:
 
 * Are *blazingly* fast
-* Allow you to store boolean values in a single bit instead of a whole byte
+* Allow you to store boolean values in a single bit instead of an entire byte
 
 ## Bitwise operations on numbers
 
 Try the following programs in C++.
-
 
 ```
 #include <iostream>
@@ -179,20 +178,8 @@ b=10
 
 ### Task 5
 
-Write a program which prints the bigger of two numbers.
-
-Input:
-```
-5
-7
-```
-
-Output:
-```
-7
-```
-
-### Task 6
+**NB:** This task doesn't require knowledge of conditional operators (`if / switch / ?`).
+Try to solve it without them.
 
 Write a program which outputs whether a number is even.
 
@@ -203,7 +190,7 @@ Input:
 
 Output:
 ```
-yes
+1
 ```
 
 Input:
@@ -213,10 +200,13 @@ Input:
 
 Output:
 ```
-no
+0
 ```
 
-### Task 7
+### Task 6
+
+**NB:** This task doesn't require knowledge of conditional operators (`if / switch / ?`).
+Try to solve it without them.
 
 Print out whether three sides of a triangle really compose a triangle.
 
@@ -229,9 +219,8 @@ Input:
 
 Output:
 ```
-yes
+1
 ```
-
 
 Input:
 ```
@@ -242,10 +231,13 @@ Input:
 
 Output:
 ```
-no
+0
 ```
 
-### Task 8*
+### Task 7*
+
+**NB:** This task doesn't require knowledge of conditional operators (`if / switch / ?`).
+Try to solve it without them.
 
 Write a program which takes a 4-digit number as input and outputs whether it is a palindrome.
 A palindrome is a number that remains the same when its digits are reversed.
@@ -257,7 +249,7 @@ Input:
 
 Output:
 ```
-yes
+1
 ```
 
 Input:
@@ -267,5 +259,23 @@ Input:
 
 Output:
 ```
-no
+0
+```
+
+### Task 8*
+
+**NB:** This task doesn't require knowledge of conditional operators (`if / switch / ?`).
+Try to solve it without them.
+
+Write a program which prints the bigger of two numbers.
+
+Input:
+```
+5
+7
+```
+
+Output:
+```
+7
 ```

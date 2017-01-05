@@ -2,13 +2,13 @@
 
 ## Review
 
-Branches are statements that let control the flow of the program
+Branches are statements that control the flow of the program
 (which is why they are also called *control flow statements*).
 Branches come in different flavours...
 
-## If statements
+## `if` statements
 
-In its simplest form, an if statement looks like this:
+In its simplest form, an `if` statement looks like this:
 
 ```C++
 if (boolean_expression)
@@ -63,7 +63,7 @@ Some important notes:
 `int`, `long`, `short`, `char`, `bool` or any of their unsigned counterparts).
 * The `default` clause is optional but it is recommended to always have it to
 prevent errors
-* The `break` keywords serve to separate cases. They are optional and their
+* The `break` keyword serves to separate cases. It is optional but its
 lack will cause the execution of the next case.
 
 Example:
@@ -103,6 +103,7 @@ int main ()
 ## Conditional operators
 
 The conditional operator is the only operator that takes not 1, not 2 but 3 operands!
+
 ```C++
 int finalValue = boolean_expression ? possible_value : another_possible_value;
 // The code above is equivalent to
